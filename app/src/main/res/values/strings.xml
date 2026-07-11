@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NeoCleanse</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_storage">Storage</string>
+    <string name="nav_cleaner">Cleaner</string>
+    <string name="nav_settings">Settings</string>
+</resources>
