@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.neocleanse.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/storageFragment"
+        android:name="com.neocleanse.ui.storage.StorageFragment"
+        android:label="Storage"
+        tools:layout="@layout/fragment_storage" />
+
+    <fragment
+        android:id="@+id/cleanerFragment"
+        android:name="com.neocleanse.ui.cleaner.CleanerFragment"
+        android:label="Cleaner"
+        tools:layout="@layout/fragment_cleaner" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.neocleanse.ui.settings.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>
